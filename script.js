@@ -41,7 +41,7 @@ TweenMax.from(".line-one",1, {
 TweenMax.from(".line-two",1, {
     opacity:0,
     delay: 2.5,
-    y:-800,
+    y:800,
     ease: Expo.easeInOut
 })
 TweenMax.from(".img",2, {
@@ -51,13 +51,7 @@ TweenMax.from(".img",2, {
     ease: Expo.easeInOut
 })
 
-TweenMax.from(".year",1, {
-    opacity:0,
-    delay: 1.4,
-    y:20,
-    ease: Expo.easeInOut
-})
-TweenMax.staggerFrom(".media ul li",2, {
+TweenMax.staggerFrom(".media ul li",1, {
     opacity:0,
     delay: 3.2,
     y:40,
